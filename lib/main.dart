@@ -30,6 +30,9 @@ void main() async {
       primarySwatch: Colors.blue,
     ),
     home: _defaultHome,
+    routes: <String, WidgetBuilder>{
+      '/gallery': (BuildContext context) => new Gallery(),
+    },
   ));
 }
 
